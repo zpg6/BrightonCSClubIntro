@@ -11,6 +11,14 @@
 		127DEC632629FED7001212F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEC622629FED7001212F8 /* ContentView.swift */; };
 		127DEC652629FED9001212F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127DEC642629FED9001212F8 /* Assets.xcassets */; };
 		127DEC682629FED9001212F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127DEC672629FED9001212F8 /* Preview Assets.xcassets */; };
+		127DEC712629FEEE001212F8 /* Slide1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEC702629FEEE001212F8 /* Slide1.swift */; };
+		127DEC742629FEF4001212F8 /* Slide2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEC732629FEF4001212F8 /* Slide2.swift */; };
+		127DEC772629FEFA001212F8 /* Slide3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEC762629FEFA001212F8 /* Slide3.swift */; };
+		127DEC7A2629FF00001212F8 /* Slide4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEC792629FF00001212F8 /* Slide4.swift */; };
+		127DEC7E2629FF1E001212F8 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEC7D2629FF1E001212F8 /* Controls.swift */; };
+		127DEC812629FF26001212F8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEC802629FF26001212F8 /* ViewModel.swift */; };
+		127DEC84262A005F001212F8 /* Slide0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEC83262A005F001212F8 /* Slide0.swift */; };
+		127DEC91262A0818001212F8 /* BulletPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEC90262A0818001212F8 /* BulletPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		127DEC642629FED9001212F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		127DEC672629FED9001212F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		127DEC692629FED9001212F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127DEC702629FEEE001212F8 /* Slide1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide1.swift; sourceTree = "<group>"; };
+		127DEC732629FEF4001212F8 /* Slide2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide2.swift; sourceTree = "<group>"; };
+		127DEC762629FEFA001212F8 /* Slide3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide3.swift; sourceTree = "<group>"; };
+		127DEC792629FF00001212F8 /* Slide4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide4.swift; sourceTree = "<group>"; };
+		127DEC7D2629FF1E001212F8 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		127DEC802629FF26001212F8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		127DEC83262A005F001212F8 /* Slide0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide0.swift; sourceTree = "<group>"; };
+		127DEC90262A0818001212F8 /* BulletPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,14 @@
 			children = (
 				127DEC602629FED7001212F8 /* BrightonCSClubIntroApp.swift */,
 				127DEC622629FED7001212F8 /* ContentView.swift */,
+				127DEC802629FF26001212F8 /* ViewModel.swift */,
+				127DEC7D2629FF1E001212F8 /* Controls.swift */,
+				127DEC90262A0818001212F8 /* BulletPoint.swift */,
+				127DEC83262A005F001212F8 /* Slide0.swift */,
+				127DEC702629FEEE001212F8 /* Slide1.swift */,
+				127DEC732629FEF4001212F8 /* Slide2.swift */,
+				127DEC762629FEFA001212F8 /* Slide3.swift */,
+				127DEC792629FF00001212F8 /* Slide4.swift */,
 				127DEC642629FED9001212F8 /* Assets.xcassets */,
 				127DEC692629FED9001212F8 /* Info.plist */,
 				127DEC662629FED9001212F8 /* Preview Content */,
@@ -139,7 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				127DEC632629FED7001212F8 /* ContentView.swift in Sources */,
+				127DEC712629FEEE001212F8 /* Slide1.swift in Sources */,
+				127DEC7A2629FF00001212F8 /* Slide4.swift in Sources */,
+				127DEC7E2629FF1E001212F8 /* Controls.swift in Sources */,
+				127DEC91262A0818001212F8 /* BulletPoint.swift in Sources */,
+				127DEC84262A005F001212F8 /* Slide0.swift in Sources */,
+				127DEC742629FEF4001212F8 /* Slide2.swift in Sources */,
 				127DEC612629FED7001212F8 /* BrightonCSClubIntroApp.swift in Sources */,
+				127DEC812629FF26001212F8 /* ViewModel.swift in Sources */,
+				127DEC772629FEFA001212F8 /* Slide3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
